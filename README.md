@@ -36,3 +36,18 @@ Nvidia GPU Mornitoring and Optimaizing Application .
 -   **Memory-safe**: การจัดการหน่วยความจำที่ปลอดภัย
 -   **Multi-threaded**: อัปเดตข้อมูลแบบ background
 -   **Profile system**: บันทึกและโหลดโปรไฟล์การตั้งค่า
+
+  ""
+  # ติดตั้ง dependencies
+
+vcpkg install glfw3 gl3w imgui nvml
+
+# Build
+
+mkdir build && cd build
+
+cmake ..
+
+make
+
+""
